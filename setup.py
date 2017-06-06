@@ -37,15 +37,11 @@ setup(
 
     packages=find_packages(exclude=['doc', 'ez_setup', 'examples', 'tests']),
 
-    install_requires=[
-    'nose >= 0.10.1',
-    ],
+    install_requires=[],
 
     zip_safe=False,
 
     package_data={
     # -*- package_data: -*-
     },
-
-    test_suite = 'nose.collector',
     )
